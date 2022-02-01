@@ -1,0 +1,109 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
+}
+main p {
+  padding: 5%;
+}
+main img {
+  text-align: center;
+  max-width: 60%;
+}
+main h1,
+h2,
+h3,
+h4 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+div {
+  padding: 20px;
+}
+/* HEADER */
+
+header {
+  background-color: black;
+  padding: 30px;
+}
+.logo {
+  width: auto;
+  max-width: 40%;
+}
+/* MAIN */
+.background_pc {
+  background-image: url(/assets/images/banner.jpg);
+  background-size: cover;
+}
+
+.immagine_rotonda {
+  border-radius: 100%;
+  margin: 10px;
+}
+.sfondo_rosso {
+  background-color: #f04c2f;
+}
+.testi_sfondo_rosso {
+  color: white;
+}
+
+.bottone {
+  background-color: #f04c2f;
+  text-align: center;
+  color: white;
+  padding: 0.3em 0.5em;
+  border-radius: 8%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+cite {
+  display: block;
+  margin-top: 10px;
+}
+#nome_cite {
+  font-size: 1.8rem;
+}
+figure img {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding-top: 10px;
+}
+.titoli_footer {
+  color: white;
+}
+hr {
+  width: 60%;
+  color: white;
+}
+footer a {
+  color: white;
+}
+address {
+  display: inline-block;
+}
+
+figure {
+  border: 2px solid #dee1e3;
+  text-align: center;
+}

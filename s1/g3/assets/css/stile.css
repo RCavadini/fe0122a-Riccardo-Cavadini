@@ -1,0 +1,166 @@
+/* IMPOSTAZIONI GENERALI */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    max-width: 500px;
+    /*text-align: center;*/
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #1098ad;
+    line-height: 1.7;
+    border-bottom: 5px solid #0b7285;
+}
+
+header h1 {
+    color: white;
+    padding-top: 15px;
+}
+
+header span {
+    color: #1098ad;
+    background-color: white;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+header h2 {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-transform: initial;
+    font-weight: bold;
+}
+
+
+/* MAIN */
+
+main h2 {
+    color: #1098ad;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    border: solid #e9ecef;
+    padding: 5px;
+}
+
+figure figcaption {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+address {
+    padding: 10px;
+}
+
+address b {
+    font-weight: bold;
+}
+
+main a {
+    color: crimson;
+}
+
+p b {
+    font-weight: bold;
+}
+
+blockquote {
+    background-color: #adb5bd;
+    border-radius: 5%;
+    margin: auto;
+    padding: 20px;
+    max-width: 300px;
+}
+
+blockquote p {
+    text-align: center;
+    font-style: italic;
+}
+
+strong {
+    color: #22b8cf;
+}
+
+main hr {
+    border-style: dashed;
+    margin: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+mark {
+    background-color: #0b7285;
+    color: white;
+}
+
+ul {
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li {
+    line-height: 1.5;
+}
+
+dd {
+    padding-left: 35px;
+    line-height: 2;
+}
+
+
+/* ELEMENTI NEL MAIN */
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(59, 66, 66);
+    color: white;
+    margin-top: 25px;
+    border-top: solid 5px #0b7285;
+    line-height: 2;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+}
+
+footer a {
+    color: crimson;
+}
+
+small {
+    color: lightgray;
+}
+
+footer p {
+    text-align: center;
+}
