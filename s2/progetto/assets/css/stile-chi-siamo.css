@@ -1,0 +1,129 @@
+/*informazioni*/
+body {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+h2 {
+  font-size: 2.3rem;
+  text-align: center;
+  padding: 5%;
+}
+h3 {
+  font-size: 2.3rem;
+  color: white;
+}
+h4 {
+  font-size: 2.3rem;
+}
+p {
+  text-align: center;
+  padding: 5%;
+}
+/* HEADER */
+.header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.link_navigazione {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  padding-left: 30px;
+}
+a {
+  color: darkgray;
+  text-decoration: none;
+}
+p {
+  text-align: center;
+}
+button {
+  margin-left: 20px;
+  display: block;
+  background: rgb(108, 193, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(108, 193, 226, 1) 0%,
+    rgba(57, 47, 122, 1) 100%
+  );
+}
+nav {
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+}
+i {
+  color: red;
+}
+label i {
+  color: #e42424;
+}
+input#showMenu[type="checkbox"]:checked ~ nav ul li {
+  background-color: black;
+}
+/*MAIN*/
+figcaption {
+  text-align: center;
+}
+#coder {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
+#Blocco_img {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+figure img {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+table {
+  padding: 5%;
+}
+
+/* FOOTER */
+#footer {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 0%;
+}
+#indirizzo {
+  display: block;
+  margin-top: 0%;
+  background-color: darkgray;
+}
+/* RESPONSIVE */
+@media screen and (min-width: 700px) {
+  nav {
+    display: block;
+  }
+  .pallini {
+    display: none;
+  }
+  #content {
+    flex-direction: row;
+  }
+  #footer {
+    flex-direction: row;
+  }
+}
