@@ -1,6 +1,14 @@
+/*Impostazioni*/
+body {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-family: "Fira Sans", sans-serif;
+}
+
 /* HEADER */
 .header {
   display: flex;
+  padding: 2%;
   width: 100vw;
   justify-content: space-around;
 }
@@ -23,7 +31,10 @@ p {
   text-align: center;
 }
 button {
+  color: white;
   margin-left: 20px;
+  margin-top: 5%;
+  height: 30px;
   display: block;
   background: rgb(108, 193, 226);
   background: linear-gradient(
@@ -104,12 +115,15 @@ p {
   background-color: darkgray;
   text-align: center;
   padding: 5%;
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
 #indirizzo {
   display: block;
-  margin-top: 0%;
+  margin-top: 0;
   background-color: darkgray;
+}
+#indirizzo p {
+  margin: 0%;
 }
 /* RESPONSIVE */
 @media screen and (min-width: 700px) {

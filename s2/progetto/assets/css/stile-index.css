@@ -2,6 +2,7 @@
 body {
   font-size: 1.5rem;
   line-height: 1.8;
+  font-family: "Fira Sans", sans-serif;
 }
 h1 {
   text-align: center;
@@ -25,11 +26,11 @@ h4 {
   text-align: center;
   font-size: 1.4rem;
   color: white;
-  margin: 20px;
 }
 /* HEADER */
 .header {
   display: flex;
+  padding: 2%;
   width: 100vw;
   justify-content: space-around;
 }
@@ -49,7 +50,10 @@ a {
   text-decoration: none;
 }
 button {
+  color: white;
   margin-left: 20px;
+  margin-top: 6%;
+  height: 30px;
   display: block;
   background: rgb(108, 193, 226);
   background: linear-gradient(
@@ -77,14 +81,13 @@ input#showMenu[type="checkbox"]:checked ~ nav ul li {
 /* MAIN */
 #banner {
   height: 420px;
-  background-image: url(/assets/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   background-position: center;
   background-size: cover;
 }
 #content {
   display: flex;
   flex-direction: column;
-  padding: 5%;
 }
 .allineato {
   text-align: center;
@@ -101,17 +104,14 @@ input#showMenu[type="checkbox"]:checked ~ nav ul li {
 #emoticon1 {
   display: flex;
   flex-direction: column;
-  padding: 5%;
 }
 #emoticon2 {
   display: flex;
   flex-direction: column;
-  padding: 5%;
 }
 #emoticon3 {
   display: flex;
   flex-direction: column;
-  padding: 5%;
 }
 #emo {
   color: red;
@@ -146,6 +146,7 @@ dt {
 }
 #indirizzo {
   display: block;
+  padding: 5%;
   margin-top: 0%;
   background-color: darkgray;
 }

@@ -2,6 +2,7 @@
 body {
   font-size: 1.5rem;
   line-height: 1.8;
+  font-family: "Fira Sans", sans-serif;
 }
 h1 {
   text-align: center;
@@ -24,9 +25,19 @@ p {
   text-align: center;
   padding: 5%;
 }
+main {
+  padding: 5%;
+}
+thead {
+  background-color: #1f4874;
+}
+tbody {
+  background-color: #d2dce7;
+}
 /* HEADER */
 .header {
   display: flex;
+  padding: 2%;
   width: 100vw;
   justify-content: space-around;
 }
@@ -49,7 +60,10 @@ p {
   text-align: center;
 }
 button {
+  color: white;
   margin-left: 20px;
+  margin-top: 4%;
+  height: 30px;
   display: block;
   background: rgb(108, 193, 226);
   background: linear-gradient(
@@ -74,30 +88,45 @@ input#showMenu[type="checkbox"]:checked ~ nav ul li {
   background-color: black;
 }
 /*MAIN*/
+.btnscrivici {
+  margin: auto;
+  width: 100px;
+}
+
 figcaption {
   text-align: center;
 }
 #coder {
   display: flex;
   flex-direction: column;
-  max-width: 90%;
+  max-width: 100%;
 }
 #Blocco_img {
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  align-items: center;
+  justify-content: center;
 }
-figure img {
+#fotoallineata {
   display: block;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
+  width: 50%;
 }
-
-table {
+figure {
+  display: flex;
+  flex-direction: column;
   padding: 5%;
 }
-
+table {
+  display: block;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 45vw;
+  padding: 5%;
+  overflow-x: scroll;
+}
 /* FOOTER */
 #footer {
   display: flex;
@@ -125,5 +154,11 @@ table {
   }
   #footer {
     flex-direction: row;
+  }
+  #Blocco_img {
+    flex-direction: row;
+  }
+  table {
+    overflow-x: auto;
   }
 }
