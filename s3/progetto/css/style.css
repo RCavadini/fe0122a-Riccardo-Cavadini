@@ -1,0 +1,25 @@
+header {
+  height: 10vh; }
+
+h1 {
+  line-height: 50px;
+  margin-top: 50px; }
+
+h2 {
+  text-align: center;
+  line-height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+figure {
+  margin: 0px; }
+
+figcaption {
+  text-align: center; }
+
+#p-footer {
+  color: white; }
+
+img {
+  height: 20vh;
+  width: 20vw; }

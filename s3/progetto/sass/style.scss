@@ -1,0 +1,40 @@
+/*Variabili*/
+@import "function";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: set-contrast-color($bg-dark);
+}
+
+h1 {
+  line-height: 50px;
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+  line-height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+figure {
+  margin: 0px;
+}
+figcaption {
+  text-align: center;
+}
+
+img {
+  height: 20vh;
+  width: 20vw;
+}
+.footer {
+  margin-top: 100px;
+}
+#carosello {
+  height: 180px;
+  width: 180px;
+}
