@@ -9,7 +9,10 @@ h5,
 p {
   color: set-contrast-color($bg-dark);
 }
-
+#img-azienda {
+  background-image: url(assets/img/asdrubalini.jfif);
+  background-size: cover;
+}
 h1 {
   line-height: 50px;
   margin-top: 50px;
