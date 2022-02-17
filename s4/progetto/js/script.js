@@ -6,4 +6,4 @@ function solve(){
 }
 function deleteAll(){
     document.getElementById("Result").value = ""
-}
+} 

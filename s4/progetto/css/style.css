@@ -3,45 +3,40 @@
   flex-direction: column;
   width: 31vw;
   height: 45vh;
-  padding: 10px;
+  padding: 3vh;
+  padding-bottom: 5vh;
   border-radius: 10%;
   background-color: #343a40;
 }
 #Result {
-  width: 20vw;
+  width: 17.5vw;
 }
 div #clacResultRow {
   display: flex;
   justify-content: space-around;
-  width: 30vw;
 }
 div #calcFirstRow {
   display: flex;
   justify-content: space-around;
-  width: 30vw;
 }
 div #calcSecondRow {
   display: flex;
   justify-content: space-around;
-  width: 30vw;
 }
 div #calcThirdRow {
   display: flex;
   justify-content: space-around;
-  width: 30vw;
 }
 div #lastRow {
   display: flex;
   justify-content: space-around;
-  width: 30vw;
 }
 button {
   font-size: 1.3rem;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 3vh;
   width: 50px;
   height: 50px;
-  background-color: #f4eae6;
+  background-color: #fffeee;
   border: none;
   box-shadow: 5px 6px 4px 1px rgba(0, 0, 0, 0.71);
   font-weight: bolder;
@@ -59,4 +54,5 @@ button {
 }
 input[type="text"] {
   font-size: 24px;
+  background-color: #fffeee;
 }
