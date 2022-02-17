@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="containerCalculator">
+      <div id="clacResultRow">
+        <button id="C" class="buttonCircle" onclick="deleteAll(this)">C</button>
+
+        <input id="Result" type="text" />
+      </div>
+      <div id="calcFirstRow">
+        <button id="7" onclick="buttonImput(this)">7</button>
+        <button id="8" onclick="buttonImput(this)">8</button>
+        <button id="9" onclick="buttonImput(this)">9</button>
+        <button class="functionButton" id="/" onclick="buttonImput(this)">
+          /
+        </button>
+      </div>
+      <div id="calcSecondRow">
+        <button id="4" onclick="buttonImput(this)">4</button>
+        <button id="5" onclick="buttonImput(this)">5</button>
+        <button id="6" onclick="buttonImput(this)">6</button>
+        <button class="functionButton" id="*" onclick="buttonImput(this)">
+          X
+        </button>
+      </div>
+      <div id="calcThirdRow">
+        <button id="1" onclick="buttonImput(this)">1</button>
+        <button id="2" onclick="buttonImput(this)">2</button>
+        <button id="3" onclick="buttonImput(this)">3</button>
+        <button class="functionButton" id="-" onclick="buttonImput(this)">
+          -
+        </button>
+      </div>
+      <div id="lastRow">
+        <button id="0" onclick="buttonImput(this)">0</button>
+        <button class="functionButton" id="." onclick="buttonImput(this)">
+          .
+        </button>
+
+        <button class="functionButton" id="+" onclick="buttonImput(this)">
+          +
+        </button>
+        <button class="functionButton" id="=" onclick="solve(this)">=</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
