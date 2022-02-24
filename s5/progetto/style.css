@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(37, 36, 36);
+}
+h1 {
+  color: #aef513;
+  font-weight: bold;
+  padding: 3%;
+}
+ul {
+  list-style-type: none;
+  width: 90vw;
+  margin: auto;
+}
+#divTracklist {
+  display: flex;
+  flex-direction: column;
+}
+#MenuTasklist {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+::placeholder {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+#inputTask {
+  width: 60vw;
+  height: 5vw;
+  background-color: whitesmoke;
+}
+#addTask {
+  width: 30vw;
+}
+li {
+  background-color: #aef513;
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1.5%;
+  border: rgb(37, 36, 36);
+  border-style: solid;
+  cursor: pointer;
+}
+button {
+  background-color: #aef513;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+input {
+  color: black;
+  font-size: 1.5rem;
+  padding-left: 1vw;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+input:focus {
+  outline: none;
+}
+@media screen and (max-width: 1000px) {
+  #MenuTasklist {
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+  }
+  #inputTask {
+    width: 85vw;
+    height: 10vh;
+  }
+  #addTask {
+    margin-top: 2vh;
+    width: 85vw;
+  }
+  #divTasklist {
+    justify-content: center;
+    margin: auto;
+    width: 80vw;
+  }
+  ul {
+    margin: 0;
+  }
+  li {
+    font-size: 1rem;
+    margin: auto;
+  }
+}
