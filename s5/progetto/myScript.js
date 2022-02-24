@@ -1,5 +1,5 @@
 buttonAdd = document.getElementById("addTask");
-creaHTML()
+
 
 buttonAdd.addEventListener("click",function(){
 let  inputTask = document.getElementById("inputTask").value
